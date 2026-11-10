@@ -1,0 +1,57 @@
+
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ollama and large AI model files
+.ollama/
+ollama/
+*.gguf
+*.ggml
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Model and checkpoint folders
+models/
+checkpoints/
+
+# Dataset files - upload sample data separately if appropriate
+data/*
+!data/.gitkeep
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code local settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
